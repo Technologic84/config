@@ -1,0 +1,15 @@
+;   zone.serveur.maison
+$TTL	86400
+$ORIGIN serveur.maison.
+@	IN SOA	jerome.serveur.maison hostmaster.serveur.maison. (
+					20140413 ; serial (
+					3H		   ; refresh
+					15M	    ; retry
+					1W		   ; expiry
+					1D )		; minimum
+
+			 IN NS	jerome.serveur.maison.
+jerome      IN A 192.168.2.1
+tour        IN A 192.168.2.2
+slackware.jerome.serveur.maison IN A 192.168.2.1
+freebsd.jerome.serveur.maison IN A 192.168.2.1
