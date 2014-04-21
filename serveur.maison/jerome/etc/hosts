@@ -12,9 +12,9 @@
 #
 
 # For loopbacking.
-127.0.0.1	  	localhost
+127.0.0.1	  	localhost.localdomain localhost
 192.168.2.1		jerome.serveur.maison jerome
-192.168.2.2 tour
+192.168.2.2   tour
 192.168.2.1   slackware.jerome.serveur.maison slackware.jerome
 192.168.2.1   freebsd.jerome.serveur.maison freebsd.jerome
 # End of hosts.
